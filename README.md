@@ -6,145 +6,101 @@
 
 <br/>
 
+### 👨‍💻 About Me
+*I turn complex problems into clean, efficient, and production-ready software.*
+
+I'm a passionate **Full Stack Developer** specializing in modern web technologies, scalable backend architecture, and AI integrations. My core focus is on growing as an engineer by building impactful, real-world products.
+
 </div>
 
 ---
 
-# 👋 Introduction
-
-Hi, I’m **Mintesino Tamene**, a passionate **Full Stack Developer** focused on building scalable web applications, backend systems, and AI-powered solutions.  
-I enjoy turning complex problems into clean, efficient, and production-ready software.
-
-My goal is to grow as a **software engineer building impactful real-world products**.
-
----
-
-# 🚀 About Me
-
-- 💻 Full Stack Developer specializing in modern web technologies  
-- ⚙️ Focused on backend systems, APIs, and scalable architecture  
-- 🤖 Experienced in AI integration using OpenAI & Hugging Face APIs  
-- 📱 Interested in mobile development (Flutter & React Native)  
-- 🌱 Currently improving system design & advanced backend engineering  
-- 🎯 Career goal: Become a top-tier full stack / backend engineer  
-
----
-
-# 🛠️ Tech Stack
-
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node-dot-js&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-
-### Databases
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### AI & APIs
-![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FCC624?style=for-the-badge&logo=huggingface&logoColor=black)
-
-### Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-0A0A0A?style=for-the-badge&logo=githubactions&logoColor=white)
-
----
-
-# 📊 GitHub Stats
-
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=mintekoo&show_icons=true&theme=tokyonight&hide_border=true" height="180"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mintekoo&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
+### 🛠️ Tech Arsenal
+<br/>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,flutter,nodejs,express,laravel,php&perline=10" alt="Frontend & Backend"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,prisma,git,github,postman,docker,linux,aws&perline=10" alt="Database & Tools"/>
+  </a>
+</p>
+
+<br/>
+
+### 🚀 Featured Projects
+<table align="center" style="border-collapse: collapse; border: none;">
+  <tr>
+    <td align="center" width="33%" style="padding: 15px;">
+      <h3>🎓 FutureX Admin</h3>
+      <p>Backend & Admin dashboard for an educational platform.</p>
+      <p><code>Node.js</code> <code>MySQL</code> <code>React</code></p>
+      <a href="https://play.google.com/store/apps/details?id=com.inspireethiopia.net.futurexappversion2">🔗 Play Store</a>
+    </td>
+    <td align="center" width="33%" style="padding: 15px;">
+      <h3>🚗 Adinas Car Rent</h3>
+      <p>Fleet management & booking platform.</p>
+      <p><code>Next.js</code> <code>Node.js</code> <code>MySQL</code></p>
+      <a href="https://adinascarrent.com/">🔗 Live Site</a>
+    </td>
+    <td align="center" width="33%" style="padding: 15px;">
+      <h3>🤖 AI Career Coach</h3>
+      <p>AI-powered career guidance platform.</p>
+      <p><code>Next.js</code> <code>Prisma</code> <code>PostgreSQL</code></p>
+      <a href="https://ai-career-coach-snowy.vercel.app/">🔗 Live Site</a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+### 📊 GitHub Analytics
+
+<table align="center" style="border-collapse: collapse; border: none;">
+  <tr>
+    <td align="center" style="padding: 10px;">
+      <img src="https://github-readme-stats.vercel.app/api?username=mintekoo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="180" alt="GitHub Stats" />
+    </td>
+    <td align="center" style="padding: 10px;">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mintekoo&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="180" alt="Top Languages" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2" style="padding: 10px;">
+      <img src="https://github-readme-streak-stats.herokuapp.com?user=mintekoo&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak" />
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+### 📈 Contribution Activity
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mintekoo&bg_color=0d1117&color=00c2ff&line=00c2ff&point=ffffff&area=true&hide_border=true" width="90%" alt="Activity Graph"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=mintekoo&theme=tokyonight&hide_border=true"/>
+<img src="https://raw.githubusercontent.com/mintekoo/mintekoo/output/github-contribution-grid-snake.svg" width="90%" alt="Contribution Snake"/>
 
-</div>
+<br/><br/>
 
----
+### 🤝 Let's Connect!
 
-# 📈 Contribution Graph
+<p align="center">
+  <a href="mailto:mintesinottamen0917@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://mintekoo.github.io/PORTFOLIO/"><img src="https://img.shields.io/badge/Portfolio-252F3F?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://github.com/mintekoo"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+</p>
 
-<div align="center">
+*📍 Addis Ababa, Ethiopia* <br/>
+*⚡ Fun Fact: I believe clean code is not written — it is engineered.*
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mintekoo&bg_color=0d1117&color=00c2ff&line=00c2ff&point=ffffff&area=true&hide_border=true"/>
+<br/>
 
-</div>
-
----
-
-# 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/mintekoo/mintekoo/output/github-contribution-grid-snake.svg" />
-
-</div>
-
----
-
-# 🔥 Featured Projects
-
-### 🚀 FutureX Admin System
-Backend & admin dashboard for educational platform  
-**Tech:** Node.js, MySQL, React, JWT  
-🔗 https://play.google.com/store/apps/details?id=com.inspireethiopia.net.futurexappversion2  
-
----
-
-### 🚗 Adinas Car Rent System
-Fleet management & booking platform  
-**Tech:** Node.js, Next.js, MySQL  
-🔗 https://adinascarrent.com/  
-
----
-
-### 🤖 AI Career Coach
-AI-powered career guidance platform  
-**Tech:** Next.js, Prisma, PostgreSQL, Clerk  
-🔗 https://ai-career-coach-snowy.vercel.app/  
-
----
-
-# 🌱 Currently Learning
-
-- Advanced System Design  
-- Scalable Backend Architecture  
-- Microservices & API optimization  
-- AI integration in production systems  
-- DevOps & CI/CD pipelines  
-
----
-
-# 🤝 Connect With Me
-
-- 📧 Email: mintesinottamen0917@gmail.com  
-- 🌐 Portfolio: https://mintekoo.github.io/PORTFOLIO/  
-- 📍 Location: Addis Ababa, Ethiopia  
-- 💬 Open to collaboration and freelance work  
-
----
-
-# ⚡ Fun Fact
-
-I believe **clean code is not written — it is engineered.**  
-I enjoy solving real-world problems more than just writing code for practice.
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
 
 </div>
