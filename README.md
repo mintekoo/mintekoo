@@ -3,19 +3,48 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=MINTESINO%20TAMENE&fontSize=45&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Laravel%20%7C%20React%20%7C%20Node.js%20%7C%20Flutter%20%7C%20AI%20Engineer&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00C2FF&center=true&vCenter=true&width=800&lines=Full+Stack+Developer+from+Ethiopia+🇪🇹;Building+Scalable+Web+Apps+%26+AI+Systems;Laravel+%7C+React+%7C+Node.js+%7C+Flutter+%7C+React+Native;Clean+Code+%7C+Performance+%7C+Real+World+Products)](https://git.io/typing-svg)
-
 <br/>
 
 ### 👨‍💻 About Me
 *I turn complex problems into clean, efficient, and production-ready software.*
 
 I'm a passionate **Full Stack Developer** specializing in modern web technologies, scalable backend architecture, and AI integrations. My core focus is on growing as an engineer by building impactful, real-world products.
+<img src="./assets/code.gif" width="100%" style="border-radius:12px;" />
 
+</div>
+
+<div align="center">
 </div>
 
 ---
 
 <div align="center">
+
+<p align="center">
+
+<a href="https://github.com/mintekoo">
+  <img src="https://www.shieldcn.dev/badge/GitHub-%40mintekoo-181717.svg?logo=github&variant=branded&size=sm" />
+</a>
+
+<a href="https://mintekoo.github.io/PORTFOLIO/">
+  <img src="https://www.shieldcn.dev/badge/Website-mintekoo.github.io%2FPORTFOLIO-181717.svg?logo=ri%3ALuLink&variant=branded&size=sm" />
+</a>
+
+<br/>
+
+<a href="https://github.com/mintekoo?tab=followers">
+  <img src="https://www.shieldcn.dev/github/followers/mintekoo.svg?variant=secondary&size=sm" />
+</a>
+
+<a href="https://github.com/mintekoo?tab=repositories">
+  <img src="https://www.shieldcn.dev/github/user-stars/mintekoo.svg?variant=secondary&size=sm" />
+</a>
+
+<a href="https://github.com/mintekoo?tab=repositories">
+  <img src="https://www.shieldcn.dev/badge/Repos-41-2563eb.svg?logo=github&variant=secondary&size=sm" />
+</a>
+
+</p>
 
 ### 🛠️ Tech Arsenal
 <br/>
@@ -66,7 +95,7 @@ I'm a passionate **Full Stack Developer** specializing in modern web technologie
       <img src="https://github-readme-stats.vercel.app/api?username=mintekoo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="180" alt="GitHub Stats" />
     </td>
     <td align="center" style="padding: 10px;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mintekoo&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="180" alt="Top Languages" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mintekoo&theme=tokyonight" />
     </td>
   </tr>
   <tr>
