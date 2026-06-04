@@ -9,8 +9,14 @@
 *I turn complex problems into clean, efficient, and production-ready software.*
 
 I'm a passionate **Full Stack Developer** specializing in modern web technologies, scalable backend architecture, and AI integrations. My core focus is on growing as an engineer by building impactful, real-world products.
-<img src="./assets/code.gif" width="100%" style="border-radius:12px;" />
 
+</div>
+
+<div align="center">
+
+<br/>
+
+<img src="./assets/code.gif" width="100%" style="border-radius:12px;" />
 </div>
 
 <div align="center">
