@@ -6,7 +6,8 @@
 <br/>
 
 ### 👨‍💻 About Me
-*I turn complex problems into clean, efficient, and production-ready software.*
+
+_I turn complex problems into clean, efficient, and production-ready software._
 
 I'm a passionate **Full Stack Developer** specializing in modern web technologies, scalable backend architecture, and AI integrations. My core focus is on growing as an engineer by building impactful, real-world products.
 
@@ -53,6 +54,7 @@ I'm a passionate **Full Stack Developer** specializing in modern web technologie
 </p>
 
 ### 🛠️ Tech Arsenal
+
 <br/>
 <p align="center">
   <a href="https://skillicons.dev">
@@ -68,6 +70,7 @@ I'm a passionate **Full Stack Developer** specializing in modern web technologie
 <br/>
 
 ### 🚀 Featured Projects
+
 <table align="center" style="border-collapse: collapse; border: none;">
   <tr>
     <td align="center" width="33%" style="padding: 15px;">
@@ -99,32 +102,39 @@ I'm a passionate **Full Stack Developer** specializing in modern web technologie
 
 ### 📊 GitHub Analytics
 
-<table align="center" style="border-collapse: collapse; border: none;">
-  <tr>
-    <td align="center"><strong>Profile Stats</strong></td>
-    <td align="center"><strong>Top Languages</strong></td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/mintekoo/mintekoo/blob/master/profile-summary-card-output/tokyonight/2-stats.svg" width="350"/>
-    </td>
-    <td align="center">
-      <img src="https://github.com/mintekoo/mintekoo/blob/master/profile-summary-card-output/tokyonight/3-most-commit-language.svg" width="350"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Productivity</strong></td>
-    <td align="center"><strong>Streak</strong></td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/mintekoo/mintekoo/blob/master/profile-summary-card-output/tokyonight/4-productive-time.svg" width="350"/>
-    </td>
-    <td align="center">
-      <img src="https://streak-stats.demolab.com?user=mintekoo&theme=tokyonight&hide_border=true" width="350"/>
-    </td>
-  </tr>
-</table>
+<p align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mintekoo&theme=tokyonight" width="100%" />
+
+</p>
+
+<p align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mintekoo&theme=tokyonight" width="48%" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mintekoo&theme=tokyonight" width="48%" />
+
+</p>
+
+<p align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mintekoo&theme=tokyonight" width="48%" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mintekoo&theme=tokyonight&utcOffset=3" width="48%" />
+
+</p>
+
+<p align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=mintekoo&theme=tokyonight&hide_border=true&background=0d1117" width="48%" />
+
+</p>
+
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=mintekoo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" width="100%" />
+
+</p>
 
 <br/>
 
@@ -138,7 +148,7 @@ I'm a passionate **Full Stack Developer** specializing in modern web technologie
 
 <br/><br/>
 
-### 🤝 Let's Connect!
+### 🤝 Let's Connect
 
 <p align="center">
   <a href="mailto:mintesinottamen0917@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
@@ -146,8 +156,8 @@ I'm a passionate **Full Stack Developer** specializing in modern web technologie
   <a href="https://github.com/mintekoo"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
 
-*📍 Addis Ababa, Ethiopia* <br/>
-*⚡ Fun Fact: I believe clean code is not written — it is engineered.*
+_📍 Addis Ababa, Ethiopia_ <br/>
+_⚡ Fun Fact: I believe clean code is not written — it is engineered._
 
 <br/>
 
