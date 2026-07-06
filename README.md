@@ -93,6 +93,10 @@ I'm a passionate **Full Stack Developer** specializing in modern web technologie
 
 <br/>
 
+## 🎁 Git Wrapped
+
+<img src="https://raw.githubusercontent.com/mintekoo/mintekoo/output/wrapped.svg" width="100%">
+
 ### 📊 GitHub Analytics
 
 <table align="center" style="border-collapse: collapse; border: none;">
