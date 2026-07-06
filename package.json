@@ -1,0 +1,25 @@
+{
+  "name": "mintekoo",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate:wrapped": "node scripts/generate-wrapped.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mintekoo/mintekoo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mintekoo/mintekoo/issues"
+  },
+  "homepage": "https://github.com/mintekoo/mintekoo#readme",
+  "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "dotenv": "^17.4.2"
+  }
+}
