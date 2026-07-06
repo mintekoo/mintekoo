@@ -1,39 +1,126 @@
 const fs = require("fs");
 const path = require("path");
+const { Octokit } = require("@octokit/rest");
 
-const year = new Date().getFullYear();
+const USERNAME = "mintekoo";
 
-const svg = `
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="450">
-    <rect width="100%" height="100%" fill="#0d1117"/>
+// GitHub API client
+const octokit = new Octokit({
+  auth: process.env.GITHUB_TOKEN,
+});
 
-    <text x="50%" y="80"
+async function fetchStats() {
+  const { data: user } = await octokit.users.getByUsername({
+    username: USERNAME,
+  });
+
+  const { data: repos } = await octokit.repos.listForUser({
+    username: USERNAME,
+    per_page: 100,
+  });
+
+  let stars = 0;
+  let forks = 0;
+
+  repos.forEach((repo) => {
+    stars += repo.stargazers_count;
+    forks += repo.forks_count;
+  });
+
+  return {
+    name: user.name || USERNAME,
+    followers: user.followers,
+    repos: repos.length,
+    stars,
+    forks,
+  };
+}
+
+async function generate() {
+  const stats = await fetchStats();
+  const year = new Date().getFullYear();
+
+  const svg = `
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500">
+
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="50%" stop-color="#302b63"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+  <!-- TITLE -->
+  <text x="50%" y="80"
         text-anchor="middle"
-        fill="white"
-        font-size="42"
-        font-family="Arial">
-        Git Wrapped ${year}
-    </text>
+        fill="#ffffff"
+        font-size="44"
+        font-family="Arial"
+        font-weight="bold">
+    🎁 Git Wrapped ${year}
+  </text>
 
-    <text x="50%" y="150"
+  <!-- USER -->
+  <text x="50%" y="140"
         text-anchor="middle"
         fill="#58a6ff"
         font-size="26">
-        @mintekoo
-    </text>
+    @${USERNAME}
+  </text>
 
-    <text x="50%" y="240"
+  <!-- STATS ROW 1 -->
+  <text x="50%" y="220"
         text-anchor="middle"
-        fill="white"
+        fill="#e6edf3"
         font-size="22">
-        🚀 This card was generated automatically.
-    </text>
+    📦 Repositories: ${stats.repos}
+  </text>
+
+  <text x="50%" y="260"
+        text-anchor="middle"
+        fill="#e6edf3"
+        font-size="22">
+    ⭐ Stars: ${stats.stars}
+  </text>
+
+  <!-- STATS ROW 2 -->
+  <text x="50%" y="300"
+        text-anchor="middle"
+        fill="#e6edf3"
+        font-size="22">
+    🍴 Forks: ${stats.forks}
+  </text>
+
+  <text x="50%" y="340"
+        text-anchor="middle"
+        fill="#e6edf3"
+        font-size="22">
+    👥 Followers: ${stats.followers}
+  </text>
+
+  <!-- FOOTER -->
+  <text x="50%" y="410"
+        text-anchor="middle"
+        fill="#8b949e"
+        font-size="16">
+    Live GitHub data • Updated daily via Actions
+  </text>
+
 </svg>
 `;
 
-const distPath = path.join(process.cwd(), "dist");
-fs.mkdirSync(distPath, { recursive: true });
+  const dist = path.join(process.cwd(), "dist");
+  fs.mkdirSync(dist, { recursive: true });
 
-fs.writeFileSync(path.join(distPath, "wrapped.svg"), svg.trim());
+  fs.writeFileSync(path.join(dist, "wrapped.svg"), svg.trim());
 
-console.log("Generated wrapped.svg");
+  console.log("✅ Git Wrapped generated successfully");
+}
+
+generate().catch((err) => {
+  console.error("❌ Error generating Git Wrapped:", err);
+  process.exit(1);
+});
