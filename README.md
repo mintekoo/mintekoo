@@ -93,24 +93,35 @@ I'm a passionate **Full Stack Developer** specializing in modern web technologie
 
 <br/>
 
-## 🎁 Git Wrapped
+<!-- ## 🎁 Git Wrapped
 
-<img src="https://raw.githubusercontent.com/mintekoo/mintekoo/output/wrapped.svg" width="100%">
+<img src="https://raw.githubusercontent.com/mintekoo/mintekoo/output/wrapped.svg" width="100%"> -->
 
 ### 📊 GitHub Analytics
 
 <table align="center" style="border-collapse: collapse; border: none;">
   <tr>
-    <td align="center" style="padding: 10px;">
-      <img src="https://github-readme-stats.vercel.app/api?username=mintekoo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="180" alt="GitHub Stats" />
+    <td align="center"><strong>Profile Stats</strong></td>
+    <td align="center"><strong>Top Languages</strong></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/mintekoo/mintekoo/blob/master/profile-summary-card-output/tokyonight/2-stats.svg" width="350"/>
     </td>
-    <td align="center" style="padding: 10px;">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mintekoo&theme=tokyonight" />
+    <td align="center">
+      <img src="https://github.com/mintekoo/mintekoo/blob/master/profile-summary-card-output/tokyonight/3-most-commit-language.svg" width="350"/>
     </td>
   </tr>
   <tr>
-    <td align="center" colspan="2" style="padding: 10px;">
-      <img src="https://github-readme-streak-stats.herokuapp.com?user=mintekoo&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak" />
+    <td align="center"><strong>Productivity</strong></td>
+    <td align="center"><strong>Streak</strong></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/mintekoo/mintekoo/blob/master/profile-summary-card-output/tokyonight/4-productive-time.svg" width="350"/>
+    </td>
+    <td align="center">
+      <img src="https://streak-stats.demolab.com?user=mintekoo&theme=tokyonight&hide_border=true" width="350"/>
     </td>
   </tr>
 </table>

@@ -1,0 +1,25 @@
+name: GitHub-Profile-Summary-Cards
+
+on:
+    schedule:
+        - cron: "0 0 * * *" # Runs once every 24 hours at midnight
+    workflow_dispatch:
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        name: generate-github-profile-summary-cards
+        permissions:
+            contents: write # This allows the action to commit the generated files to your repo
+
+        steps:
+            - uses: actions/checkout@v4
+            - uses: vn7n24fzkq/github-profile-summary-cards@release
+              env:
+                  # IMPORTANT: Use the personal access token secret here!
+                  GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+              with:
+                  USERNAME: ${{ github.repository_owner }}
+                  BRANCH_NAME: "main"
+                  UTC_OFFSET: 3 # Adjust this to your local time in Addis Ababa (UTC+3)
+                  AUTO_PUSH: true
