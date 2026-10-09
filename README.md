@@ -140,7 +140,40 @@ I'm a passionate **Full Stack Developer** specializing in modern web technologie
 
 ### 📈 Contribution Activity
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mintekoo&bg_color=0d1117&color=00c2ff&line=00c2ff&point=ffffff&area=true&hide_border=true" width="90%" alt="Activity Graph"/>
+<!-- <img src="https://github-readme-activity-graph.vercel.app/graph?username=mintekoo&bg_color=0d1117&color=00c2ff&line=00c2ff&point=ffffff&area=true&hide_border=true" width="90%" alt="Activity Graph"/> -->
+<!-- ================= 4. COMMAND CENTER HUD BANNER ================= -->
+<p align="center">
+  <img src="./assets/banner.svg?v=1" alt="Developer Command Center HUD" width="100%">
+</p>
+
+<!-- ================= 5. 3D LANYARD & PRODUCTION STATS ================= -->
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="42%" align="center" valign="top">
+      <img src="./assets/lanyard.svg?v=1" alt="Staff Architect ID Badge" width="100%">
+    </td>
+    <td width="58%" align="center" valign="top">
+      <img src="./assets/stats.svg?v=1" alt="Production Telemetry & Radar" width="100%">
+    </td>
+  </tr>
+</table>
+
+<!-- ================= 6. ANIMATED FULL-STACK & 3D PIPELINE ================= -->
+<p align="center">
+  <img src="./assets/pipeline.svg?v=1" alt="Full-Stack & 3D WebGL Pipeline Architecture" width="100%">
+</p>
+
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="middle" width="180">
+      <b>Scan for 3D Portfolio</b><br/><br/>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&data=https://minte-portfolio.onrender.com/&color=00ff9d&bgcolor=020617&margin=8" alt="Portfolio QR Code" width="140" style="border-radius: 8px;" />
+    </td>
+    <td align="center" valign="middle">
+      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=3500&pause=1200&color=00F3FF&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=520&height=50&lines=Thank+you+for+inspecting+the+architecture.;Available+for+high-impact+roles+%26+consulting.;Let%27s+build+systems+that+redefine+the+standard." alt="Footer Typing" />
+    </td>
+  </tr>
+</table>
 
 <br/><br/>
 
